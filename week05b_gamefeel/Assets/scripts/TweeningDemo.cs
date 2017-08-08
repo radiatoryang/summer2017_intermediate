@@ -7,7 +7,6 @@ public class TweeningDemo : MonoBehaviour {
 	public AnimationCurve tweenCurve; // public so we can edit in Inspector
 	public Transform cube;
 
-	// Use this for initialization
 	void Start () {
 		StartCoroutine( MyTweenCoroutine() );
 	}
